@@ -6,13 +6,21 @@
 
 /* eslint-disable */
 import * as React from "react";
+import { useRouter } from "next/router";
 import {
   getOverrideProps,
   getOverridesFromVariants,
   mergeVariantsAndOverrides,
 } from "@aws-amplify/ui-react/internal";
 import { Button, Flex, Image, Text } from "@aws-amplify/ui-react";
+
+
+
+
 export default function HeroLayout1(props) {
+const router = useRouter();
+
+
   const { overrides: overridesProp, ...rest } = props;
   const variants = [
     {
@@ -139,7 +147,11 @@ export default function HeroLayout1(props) {
               )}
             ></Text>
           </Flex>
+            
+        
           <Button
+            onClick={() => router.push("/hsapp")}
+            fontFamily="Minako"
             width="unset"
             height="unset"
             border="4px SOLID rgba(255,174,0,1)"
@@ -148,23 +160,26 @@ export default function HeroLayout1(props) {
             shrink="0"
             size="large"
             isDisabled={false}
-            variation="primary"
+            color="#110038"
+            backgroundColor="#57FF73"
             children="Get Started"
             {...getOverrideProps(overrides, "Button")}
           ></Button>
+       
+
         </Flex>
       </Flex>
       <Image
-        src="https://res.cloudinary.com/programandoconmei/image/upload/v1682234895/Hackthon/scott-graham-5fNmWej4tAA-unsplash_jkvyyo.jpg"
-        width="612px"
-        height="429px"
+        src="https://res.cloudinary.com/programandoconmei/image/upload/v1682276099/Hackthon/Untitled_design_szi8if.png"
+        width="550px"
+        height="550px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         shrink="0"
         position="relative"
-        padding="0px 0px 0px 0px"
+        padding="50px 0px 0px 0px"
         objectFit="cover"
         {...getOverrideProps(
           overrides,

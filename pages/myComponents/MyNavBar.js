@@ -8,8 +8,8 @@ import { Button } from '@aws-amplify/ui-react'
 
 const navigation = [
   { name: 'Home', href: '/', current: false },
-  { name: 'App', href: '#', current: false },
-  { name: 'Contact', href: '#', current: false },
+  { name: 'App', href: '/hsapp', current: false },
+  { name: 'Contact', href: '/contact', current: false },
 ]
 
 function classNames(...classes) {
@@ -53,13 +53,13 @@ function MyNavBar() {
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="block h-8 w-auto lg:hidden"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
+                    src="https://res.cloudinary.com/programandoconmei/image/upload/v1682278713/Hackthon/officiallogogreen_ljw6yp.png"
+                    alt="Homeschool Book App"
                   />
                   <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
+                    className="hidden h-10 w-auto lg:block"
+                    src="https://res.cloudinary.com/programandoconmei/image/upload/v1682278713/Hackthon/officiallogogreen_ljw6yp.png"
+                    alt="Homeschool Book App"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">

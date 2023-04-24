@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main
-      className='bg-hscream'
+      className='bg-hscream w-full h-screen flex flex-col '
     >
    
        
