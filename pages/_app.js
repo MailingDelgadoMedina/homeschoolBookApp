@@ -13,7 +13,9 @@ export default function App({ Component, pageProps }) {
 <MyNavBar/>
   <Component {...pageProps} />
 
-<div className='fixed bottom-0 inset-x-0'>
+
+{/* className='fixed bottom-0 inset-x-0' */}
+<div >
   <MarketingFooter/>
 </div>
 

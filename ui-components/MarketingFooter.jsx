@@ -18,7 +18,9 @@ export default function MarketingFooter(props) {
       gap="unset"
       alignItems="unset"
       justifyContent="unset"
-      position="relative"
+      position="fixed"
+      bottom="0%"
+      
       border="1px SOLID rgba(48,255,134,1)"
       padding="0px 0px 0px 0px"
       {...getOverrideProps(overrides, "MarketingFooter")}
