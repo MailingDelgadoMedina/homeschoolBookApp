@@ -4,18 +4,24 @@ import ".././configureAmplify"
 import { Authenticator } from '@aws-amplify/ui-react'
 import { Button } from '@aws-amplify/ui-react'
 import { Auth } from 'aws-amplify'
-import { HeroLayout1 } from '@/ui-components'
+import { Features4x1, FeaturesText2x2, HeroLayout1 } from '@/ui-components'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <main
-      className='bg-hscream w-full h-screen flex flex-col '
+      className='bg-hscream max-w-full max-h-screen flex flex-col '
     >
    
-       
-      <HeroLayout1 className='w-full'/>
-   
+
+       <div className='z-10'>
+ <HeroLayout1 className='w-full'/>
+       </div>
+     
+     <div className='z-0'>
+   <Features4x1/>
+     </div>
+
    
      
 

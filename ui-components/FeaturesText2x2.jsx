@@ -12,16 +12,17 @@ export default function FeaturesText2x2(props) {
   const { overrides, ...rest } = props;
   return (
     <Flex
+    defaultIndex={1}
       gap="10px"
       direction="column"
-      width="1440px"
-      height="unset"
+      width="100%"
+      height="75%"
       justifyContent="center"
       alignItems="center"
       position="relative"
       border="1px SOLID rgba(102,255,166,1)"
       padding="117px 139px 90px 139px"
-      backgroundColor="rgba(0,6,66,1)"
+      backgroundColor="#FFF6D1"
       {...getOverrideProps(overrides, "FeaturesText2x2")}
       {...rest}
     >
