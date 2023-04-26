@@ -3,11 +3,15 @@ import '../configureAmplify'
 import MyNavBar from './myComponents/MyNavBar'
 import MarketingFooter from '@/ui-components/MarketingFooter'
 
+import { Mina } from 'next/font/google'
+
+
+const mina = Mina({ subsets: ['latin'], weight:['400', '700'] })
 
 
 export default function App({ Component, pageProps }) {
   return (
-  <div>
+  <div className={mina.className}>
 
 
 <MyNavBar/>

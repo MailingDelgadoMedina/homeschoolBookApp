@@ -19,7 +19,7 @@ export default function Features4x1(props) {
       justifyContent="center"
       alignItems="center"
       position="relative"
-      border="4px SOLID rgba(0,0,0,1)"
+    
       padding="40px 140px 40px 140px"
       backgroundColor="rgba(255,246,209,1)"
       {...getOverrideProps(overrides, "Features4x1")}
@@ -96,7 +96,7 @@ export default function Features4x1(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+            children="Rest easy knowing that your child school records are always up-to-date and accurate."
             {...getOverrideProps(
               overrides,
               "Rest easy knowing that your child school records are always up-to-date and accurate."

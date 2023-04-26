@@ -172,14 +172,14 @@ const router = useRouter();
       <Image
         src="https://res.cloudinary.com/programandoconmei/image/upload/v1682276099/Hackthon/Untitled_design_szi8if.png"
         width="550px"
-        height="550px"
+        height="750px"
         display="block"
         gap="unset"
         alignItems="unset"
         justifyContent="unset"
         shrink="0"
         position="relative"
-        padding="50px 0px 0px 0px"
+        padding="250px 0px 0px 0px"
         objectFit="cover"
         {...getOverrideProps(
           overrides,
